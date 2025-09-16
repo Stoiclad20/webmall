@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webmail Authentication</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f5f5f5; height: 100vh;">
+    
+    <!-- Orange Header -->
+    <header style="background-color: #ff6633; padding: 15px 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <h1 style="color: white; margin: 0; font-size: 24px; font-weight: bold;">Webmail</h1>
+    </header>
+
+    <!-- Main Content Container -->
+    <div style="display: flex; justify-content: center; align-items: center; min-height: calc(100vh - 120px); padding: 40px 20px;">
+        
+        <!-- Authentication Card -->
+        <div style="background-color: white; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 60px 40px; text-align: center; max-width: 400px; width: 100%;">
+            
+            <!-- Title -->
+            <h2 style="color: #333; font-size: 28px; margin: 0 0 40px 0; font-weight: normal;">Authentication</h2>
+            
+            <!-- Success Icon -->
+            <div style="width: 80px; height: 80px; background-color: #28a745; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 30px auto;">
+                <svg style="width: 40px; height: 40px; fill: white;" viewBox="0 0 24 24">
+                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                </svg>
+            </div>
+            
+            <!-- Status Text -->
+            <div style="margin-bottom: 40px;">
+                <p style="color: #333; font-size: 16px; font-weight: bold; margin: 0 0 5px 0;">Domain</p>
+                <p style="color: #666; font-size: 14px; margin: 0;">has been successfully Authenticated</p>
+            </div>
+            
+            <!-- Sign In Button -->
+            <button style="background-color: #17a2b8; color: white; border: none; padding: 12px 30px; border-radius: 5px; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;" 
+                    onmouseover="this.style.backgroundColor='#138496'" 
+                    onmouseout="this.style.backgroundColor='#17a2b8'"
+                    onclick="window.location='https://webmail.cpanel.net/'">
+                Sign in to continue
+            </button>
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>
